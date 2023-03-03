@@ -43,3 +43,42 @@ p {
   font-size:1rem;
   color:white;
 }
+
+.credit-card-div {
+  position: relative;
+  height: 18.5vw;
+  width: 30vw;
+  margin: 10px;
+  border-radius: 10px;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.credit-card-logo {
+  width: 5vw;
+  padding: 15px;
+  align-self: flex-end;
+}
+
+.card-number {
+  font-size: 2.6rem;
+}
+
+.card-detail {
+  padding: 15px;
+  align-self:flex-start;
+}
+
+.card-detail-bank {
+  margin-left: 30px;
+}
+
+.credit-cards-div {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content: center;
+  align-content: center;
+}
