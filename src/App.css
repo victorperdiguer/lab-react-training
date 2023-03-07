@@ -201,3 +201,19 @@ p {
 .table-number-even {
   background-color: white;
 }
+
+.facebook-card {
+  padding: 10px;
+  margin: 10px;
+}
+
+.facebook-picture-div {
+  border-radius:50%;
+  height: 90px;
+  width: 90px;
+  overflow: hidden;
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  margin: 10px;
+}
