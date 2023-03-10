@@ -217,3 +217,9 @@ p {
   align-content: center;
   margin: 10px;
 }
+
+.facebook-button {
+  padding: 5px;
+  margin: 5px;
+  border-radius:5px;
+}

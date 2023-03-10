@@ -1,9 +1,9 @@
 import React from "react";
 
 const FaceBookCard = (props) => {
-    const {lastName, firstName, country, type, picture} = props;
+    const {lastName, firstName, country, type, picture, bgColor} = props;
     return (
-        <div className="card facebook-card">
+        <div className="card facebook-card" style={{backgroundColor: bgColor}}>
             <div className="picture-div facebook-picture-div">
                 <img src={picture} alt="Profile" className="facebook-picture" />
             </div>
