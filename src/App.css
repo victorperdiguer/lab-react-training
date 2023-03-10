@@ -223,3 +223,15 @@ p {
   margin: 5px;
   border-radius:5px;
 }
+
+.signup-form-form, .signup-form {
+  display:flex;
+  justify-content: center;
+  flex-direction:column;
+  align-content: center;
+}
+
+.signup-form-form > * {
+  width: 300px;
+  margin: 10px auto;
+}
